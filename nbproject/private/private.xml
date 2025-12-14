@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/index.html</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/model/Usuario.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/model/Categoria.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/model/Pelicula.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/dao/UsuarioDAO.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/dao/CategoriaDAO.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/dao/PeliculaDAO.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/util/DBConnection.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/impl/UsuarioDAOImpl.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/impl/CategoriaDAOImpl.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/impl/PeliculaDAOImpl.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/servlet/LoginServlet.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/servlet/PeliculaServlet.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/servlet/LogoutServlet.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/login.jsp</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/inicio.jsp</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/registraPeliculas.jsp</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/config/db.properties</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/src/java/servlet/InicioServlet.java</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/includes/navbar.jsp</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/includes/footer.jsp</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/web/index.jsp</file>
+            <file>file:/C:/Users/otnieljese/Documents/NetBeansProjects/Stream/Dockerfile</file>
+        </group>
+    </open-files>
+</project-private>

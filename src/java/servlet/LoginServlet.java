@@ -1,0 +1,33 @@
+package servlet;
+
+import dao.UsuarioDAO;
+import impl.UsuarioDAOImpl;
+import model.Usuario;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
+import java.io.IOException;
+
+@WebServlet("/login")
+public class LoginServlet extends HttpServlet {
+
+    private final UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        String usuario = request.getParameter("usuario");
+        String password = request.getParameter("password");
+
+        Usuario u = usuarioDAO.validar(usuario, password);
+        if (u != null) {
+            request.getSession(true).setAttribute("usuarioLogueado", u);
+            response.sendRedirect(request.getContextPath() + "/inicio");
+        } else {
+            request.setAttribute("mensaje", "Usuario o contraseña incorrectos");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        }
+    }
+}

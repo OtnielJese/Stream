@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BD_APELLIDO - Streaming</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body class="bg-black text-white">
+
+  <!-- Barra de Navegación -->
+  <nav class="flex items-center justify-between p-4 bg-gray-900 fixed w-full z-50">
+    <div class="flex items-center space-x-8">
+      <h1 class="text-2xl font-bold text-red-600">BD_APELLIDO</h1>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#" class="hover:text-red-500">Inicio</a></li>
+        <li><a href="#" class="hover:text-red-500">Categorías</a></li>
+        <li><a href="#" class="hover:text-red-500">Mi Lista</a></li>
+      </ul>
+    </div>
+    <div class="flex items-center space-x-4">
+      <i class="fas fa-search text-lg cursor-pointer hover:text-red-500"></i>
+      <i class="fas fa-bell text-lg cursor-pointer hover:text-red-500"></i>
+      <div class="w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-400">
+        <span class="text-sm font-bold">U</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido Principal -->
+  <main class="pt-20 pb-10 px-4">
+
+    <!-- Banner Principal -->
+    <section class="relative h-96 md:h-[500px] mb-10 rounded-xl overflow-hidden">
+      <img src="https://via.placeholder.com/1920x500/1e1e1e/ffffff?text=Película+Destacada" alt="Película Destacada" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent flex flex-col justify-end p-6">
+        <h2 class="text-3xl md:text-5xl font-bold mb-2">Título de Película Destacada</h2>
+        <p class="text-lg md:text-xl max-w-2xl mb-4">Descripción breve de la película. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="flex space-x-4">
+          <button class="bg-white text-black px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition">Reproducir</button>
+          <button class="border border-white px-6 py-2 rounded-md font-semibold hover:bg-white hover:text-black transition">+ Mi Lista</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categoría: Acción -->
+    <section class="mb-10">
+      <h3 class="text-2xl font-bold mb-4">🎬 Acción</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+        <!-- Tarjeta 1 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Acción+1" alt="Acción 1" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Acción 1</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Descripción corta de la película de acción...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Acción+2" alt="Acción 2" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Acción 2</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Otra descripción emocionante de acción...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Acción+3" alt="Acción 3" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Acción 3</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Más acción, más adrenalina...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Acción+4" alt="Acción 4" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Acción 4</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Una historia intensa de acción...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 5 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Acción+5" alt="Acción 5" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Acción 5</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">El clímax de la acción moderna...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 6 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Acción+6" alt="Acción 6" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Acción 6</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">No te pierdas esta secuela...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categoría: Comedia -->
+    <section class="mb-10">
+      <h3 class="text-2xl font-bold mb-4">😂 Comedia</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+        <!-- Tarjeta 1 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Comedia+1" alt="Comedia 1" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Comedia 1</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Risas garantizadas en esta comedia...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Comedia+2" alt="Comedia 2" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Comedia 2</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">La risa es la mejor medicina...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Comedia+3" alt="Comedia 3" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Comedia 3</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Divertida, ligera y entretenida...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Comedia+4" alt="Comedia 4" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Comedia 4</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Para reír sin parar...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 5 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Comedia+5" alt="Comedia 5" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Comedia 5</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Una comedia que no olvidarás...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 6 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Comedia+6" alt="Comedia 6" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Comedia 6</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Perfecta para ver en familia...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categoría: Drama -->
+    <section class="mb-10">
+      <h3 class="text-2xl font-bold mb-4">🎭 Drama</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+        <!-- Tarjeta 1 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Drama+1" alt="Drama 1" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Drama 1</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Una historia emotiva y profunda...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Drama+2" alt="Drama 2" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Drama 2</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Conmovedora y realista...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Drama+3" alt="Drama 3" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Drama 3</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Explora los límites del alma humana...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Drama+4" alt="Drama 4" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Drama 4</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Intensa, dramática y memorable...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 5 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Drama+5" alt="Drama 5" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Drama 5</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Una obra maestra del drama contemporáneo...</p>
+          </div>
+        </div>
+        <!-- Tarjeta 6 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform cursor-pointer">
+          <img src="https://via.placeholder.com/300x450/2d2d2d/ffffff?text=Drama+6" alt="Drama 6" class="w-full h-48 object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold truncate">Título Película Drama 6</h4>
+            <p class="text-xs text-gray-400 line-clamp-2">Emociones a flor de piel...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 p-6 text-center text-sm text-gray-500">
+    © 2025 BD_APELLIDO - Sistema de Gestión de Películas. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
